@@ -19,7 +19,7 @@ import java.util.Optional;
  */
 @RestController
 @RequestMapping("/api/items")
-@CrossOrigin(origins = "*") // Allow CORS for frontend integration
+@CrossOrigin(origins = "https://login-app-delta-rosy.vercel.app") // Allow CORS for frontend integration
 public class ItemController {
     
     private final ItemService itemService;

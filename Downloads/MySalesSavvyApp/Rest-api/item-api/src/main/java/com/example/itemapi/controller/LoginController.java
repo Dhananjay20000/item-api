@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://login-app-delta-rosy.vercel.app")
 public class LoginController {
     @GetMapping("/test")
 public String test() {
